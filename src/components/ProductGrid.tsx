@@ -15,23 +15,23 @@ const mockProducts = [
     name: "Apple Watch Series 9",
     price: "$399.99",
     description: "Advanced smartwatch with health tracking, cellular connectivity, and the new Double Tap feature.",
-    imageUrl: "https://m.media-amazon.com/images/I/71zr2kcPNUL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71XMTLtZd5L._AC_SL1500_.jpg",
     affiliateLink: "https://amazon.com/Apple-Watch-Series-9"
   },
   {
     id: 3,
-    name: "INIU 20000mAh Power Bank",
-    price: "$49.99",
-    description: "22.5W fast charging portable charger with USB-C input/output, LED display, and compatible with all smartphones.",
-    imageUrl: "https://m.media-amazon.com/images/I/71VqqQ8LqcL._AC_SL1500_.jpg",
-    affiliateLink: "https://amazon.com/INIU-Portable-Charger-20000mAh"
+    name: "Amazon Echo Show 10",
+    price: "$249.99",
+    description: "Smart display with motion tracking, 10.1\" HD screen, premium speakers, and Alexa built-in.",
+    imageUrl: "https://m.media-amazon.com/images/I/51EVETDOOeL._AC_SL1000_.jpg",
+    affiliateLink: "https://amazon.com/echo-show-10"
   },
   {
     id: 4,
     name: "Logitech G Pro X Superlight",
     price: "$159.99",
     description: "Ultra-lightweight wireless gaming mouse with HERO 25K sensor and up to 70-hour battery life.",
-    imageUrl: "https://m.media-amazon.com/images/I/61WRvlYq4WL._AC_SL1500_.jpg",
+    imageUrl: "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-black-gallery-1.png",
     affiliateLink: "https://amazon.com/Logitech-Superlight-Wireless-Gaming-Mouse"
   },
   {
@@ -47,32 +47,32 @@ const mockProducts = [
     name: "Keychron K8 Pro Mechanical Keyboard",
     price: "$149.99",
     description: "Wireless mechanical keyboard with hot-swappable switches, RGB backlight, and Mac/Windows compatibility.",
-    imageUrl: "https://m.media-amazon.com/images/I/71DwgZ6WBhL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71CZUF4BGFL._AC_SL1500_.jpg",
     affiliateLink: "https://amazon.com/Keychron-K8-Pro-Mechanical-Keyboard"
   },
   {
     id: 7,
-    name: "Smart Home Hub",
-    price: "$89.99",
-    description: "Central hub for controlling all your smart home devices with voice commands.",
-    imageUrl: "https://via.placeholder.com/300",
-    affiliateLink: "https://amazon.com/affiliate-link-7"
+    name: "INIU 20000mAh Power Bank",
+    price: "$45.99",
+    description: "22.5W fast charging portable charger with USB-C input/output, LED display, and compatible with all smartphones.",
+    imageUrl: "https://m.media-amazon.com/images/I/61dsg+cXVFL._AC_SL1500_.jpg",
+    affiliateLink: "https://amazon.com/INIU-Portable-Charger-20000mAh"
   },
   {
     id: 8,
-    name: "Wireless Earbuds",
-    price: "$159.99",
-    description: "True wireless earbuds with active noise cancellation and wireless charging case.",
-    imageUrl: "https://via.placeholder.com/300",
-    affiliateLink: "https://amazon.com/affiliate-link-8"
+    name: "Sony WF-1000XM5 Wireless Earbuds",
+    price: "$299.99",
+    description: "True wireless earbuds with industry-leading noise cancellation and high-resolution audio.",
+    imageUrl: "https://m.media-amazon.com/images/I/61nnZwz6WIL._AC_SL1500_.jpg",
+    affiliateLink: "https://amazon.com/Sony-WF-1000XM5"
   },
   {
     id: 9,
-    name: "USB-C Hub",
-    price: "$39.99",
-    description: "7-in-1 USB-C hub with HDMI, USB 3.0, and power delivery.",
-    imageUrl: "https://via.placeholder.com/300",
-    affiliateLink: "https://amazon.com/affiliate-link-9"
+    name: "Anker 565 USB-C Hub",
+    price: "$79.99",
+    description: "7-in-1 USB-C hub with 4K HDMI, USB 3.0, SD card reader, and 100W power delivery.",
+    imageUrl: "https://m.media-amazon.com/images/I/71RqpU4-jYL._AC_SL1500_.jpg",
+    affiliateLink: "https://amazon.com/Anker-565-USB-C-Hub"
   }
 ];
 
