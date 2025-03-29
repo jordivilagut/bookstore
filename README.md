@@ -1,3 +1,3 @@
-# Digital Bio
+# Affiliates Page
 
-A digital portfolio featuring an overview of personal and professional background.
+A page to showcase products that are sold on Amazon using affiliate links.
