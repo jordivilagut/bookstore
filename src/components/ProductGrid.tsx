@@ -47,7 +47,7 @@ const mockProducts = [
     name: "Keychron K8 Pro Mechanical Keyboard",
     price: "$149.99",
     description: "Wireless mechanical keyboard with hot-swappable switches, RGB backlight, and Mac/Windows compatibility.",
-    imageUrl: "https://m.media-amazon.com/images/I/71CZUF4BGFL._AC_SL1500_.jpg",
+    imageUrl: "https://cdn.mos.cms.futurecdn.net/LAybH9XXiNwJh9VVjRax8X-1200-80.jpg",
     affiliateLink: "https://amazon.com/Keychron-K8-Pro-Mechanical-Keyboard"
   },
   {
