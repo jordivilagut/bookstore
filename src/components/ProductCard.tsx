@@ -13,7 +13,15 @@ const ProductCard = ({ name, price, description, imageUrl, affiliateLink }: Prod
     <div className="product-card">
       <a href={affiliateLink} target="_blank" rel="noopener noreferrer" className="product-link">
         <div className="product-image-container">
-          <img src={imageUrl} alt={name} className="product-image" />
+          <img 
+            src={imageUrl} 
+            alt={name} 
+            className="product-image" 
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.src = "/default-book-cover.jpg";
+            }}
+          />
         </div>
         <div className="product-info">
           <h3 className="product-name">{name}</h3>
