@@ -4,75 +4,75 @@ import './ProductGrid.css';
 const mockProducts = [
   {
     id: 1,
-    name: "Sony WH-1000XM5 Wireless Headphones",
-    price: "$399.99",
-    description: "Industry-leading noise cancellation with auto optimization, crystal clear hands-free calling, and up to 30-hour battery life.",
-    imageUrl: "https://m.media-amazon.com/images/I/61+btxzpfDL._AC_SL1500_.jpg",
-    affiliateLink: "https://amazon.com/Sony-WH-1000XM5-Headphones-Canceling-WH1000XM5/dp/B09XS7JWHH"
+    name: "Florence, la indòmita",
+    price: "20.90€",
+    description: "Novel·la històrica emocionant sobre un amor prohibit a la Figueres de 1899, entre Florence Hastings i el capità Fèlix Codina.",
+    imageUrl: "https://imagessl6.casadellibro.com/a/l/t7/76/9788466430876.jpg",
+    affiliateLink: "https://www.grup62.cat/llibre/florence-la-indomita/370953"
   },
   {
     id: 2,
-    name: "Apple Watch Series 9",
-    price: "$399.99",
-    description: "Advanced smartwatch with health tracking, cellular connectivity, and the new Double Tap feature.",
-    imageUrl: "https://m.media-amazon.com/images/I/71XMTLtZd5L._AC_SL1500_.jpg",
-    affiliateLink: "https://amazon.com/Apple-Watch-Series-9"
+    name: "Victorian Psycho",
+    price: "19.90€",
+    description: "Un thriller brillant i fosc de Virginia Feito. Una institutriu victoriana contractada pels Pounds amaga perversions i secrets a Ensor House.",
+    imageUrl: "https://imagessl3.casadellibro.com/a/l/t7/43/9788466430043.jpg",
+    affiliateLink: "https://www.grup62.cat/llibre/victorian-psycho/370935"
   },
   {
     id: 3,
-    name: "Amazon Echo Show 10",
-    price: "$249.99",
-    description: "Smart display with motion tracking, 10.1\" HD screen, premium speakers, and Alexa built-in.",
-    imageUrl: "https://m.media-amazon.com/images/I/51EVETDOOeL._AC_SL1000_.jpg",
-    affiliateLink: "https://amazon.com/echo-show-10"
+    name: "El gat ens espera al marge",
+    price: "18.50€",
+    description: "Novel·la de Marc Vintró que retrata una crisi de parella en un futur pròxim de decadència ecològica.",
+    imageUrl: "https://imagessl4.casadellibro.com/a/l/t7/74/9788417879674.jpg",
+    affiliateLink: "https://www.grup62.cat/llibre/el-gat-ens-espera-al-marge/374158"
   },
   {
     id: 4,
-    name: "Logitech G Pro X Superlight",
-    price: "$159.99",
-    description: "Ultra-lightweight wireless gaming mouse with HERO 25K sensor and up to 70-hour battery life.",
-    imageUrl: "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-black-gallery-1.png",
-    affiliateLink: "https://amazon.com/Logitech-Superlight-Wireless-Gaming-Mouse"
+    name: "El llibre daurat",
+    price: "21.90€",
+    description: "Lluís Llach presenta una novel·la que segueix un llibre secret custodiat des del segle XIII, reivindicant el paper de la dona en la tradició.",
+    imageUrl: "https://imagessl5.casadellibro.com/a/l/t7/35/9788418735035.jpg",
+    affiliateLink: "https://www.grup62.cat/llibre/el-llibre-daurat/375013"
   },
   {
     id: 5,
-    name: "Logitech Brio 4K Webcam",
-    price: "$199.99",
-    description: "Ultra HD webcam with HDR and Windows Hello support, perfect for streaming and video conferencing.",
-    imageUrl: "https://m.media-amazon.com/images/I/61OQP2+yqML._AC_SL1500_.jpg",
-    affiliateLink: "https://amazon.com/Logitech-Brio-Ultra-Webcam-Windows"
+    name: "La passada a l'espai",
+    price: "18.95€",
+    description: "Obra imprescindible per als amants del futbol de Manel Vidal, cocreador de La Sotana, amb anàlisi detallada i anècdotes personals.",
+    imageUrl: "https://imagessl0.casadellibro.com/a/l/t7/10/9788423362110.jpg",
+    affiliateLink: "https://www.grup62.cat/llibre/la-passada-a-lespai/367874"
   },
   {
     id: 6,
-    name: "Keychron K8 Pro Mechanical Keyboard",
-    price: "$149.99",
-    description: "Wireless mechanical keyboard with hot-swappable switches, RGB backlight, and Mac/Windows compatibility.",
-    imageUrl: "https://cdn.mos.cms.futurecdn.net/LAybH9XXiNwJh9VVjRax8X-1200-80.jpg",
-    affiliateLink: "https://amazon.com/Keychron-K8-Pro-Mechanical-Keyboard"
+    name: "Que morin els fills dels altres",
+    price: "17.00€",
+    description: "Amb una prosa magnètica, Roser Cabré-Verdiell narra la metamorfosi d'una dona que passa de ser mare poruga a assumir un coratge propi.",
+    imageUrl: "https://malesherbes.cat/wp-content/uploads/2023/12/coberta_que_morin_els_fills_dels_altres-2.jpg",
+    affiliateLink: "https://malesherbes.cat/llibre/que-morin-els-fills-dels-altres/"
   },
   {
     id: 7,
-    name: "INIU 20000mAh Power Bank",
-    price: "$45.99",
-    description: "22.5W fast charging portable charger with USB-C input/output, LED display, and compatible with all smartphones.",
-    imageUrl: "https://m.media-amazon.com/images/I/61dsg+cXVFL._AC_SL1500_.jpg",
-    affiliateLink: "https://amazon.com/INIU-Portable-Charger-20000mAh"
+    name: "La dona del segle",
+    price: "21.90€",
+    description: "Toni Cruanyes ofereix una visió íntima dels canvis socials i culturals a Catalunya, rescatant la història de les dones de la seva família.",
+    imageUrl: "https://imagessl7.casadellibro.com/a/l/t7/17/9788466431217.jpg",
+    affiliateLink: "https://www.grup62.cat/llibre/la-dona-del-segle/371254"
   },
   {
     id: 8,
-    name: "Sony WF-1000XM5 Wireless Earbuds",
-    price: "$299.99",
-    description: "True wireless earbuds with industry-leading noise cancellation and high-resolution audio.",
-    imageUrl: "https://m.media-amazon.com/images/I/61nnZwz6WIL._AC_SL1500_.jpg",
-    affiliateLink: "https://amazon.com/Sony-WF-1000XM5"
+    name: "Poesia completa",
+    price: "24.90€",
+    description: "Obra completa d'Emily Dickinson, una de les més grans poetes d'Estats Units, amb els seus audaços experiments prosòdics i visió tràgica.",
+    imageUrl: "https://www.edicions1984.cat/fitxers/1984/products/poesiacompleta.jpg",
+    affiliateLink: "https://www.edicions1984.cat/cataleg/poesia-completa/"
   },
   {
     id: 9,
-    name: "Anker 565 USB-C Hub",
-    price: "$79.99",
-    description: "7-in-1 USB-C hub with 4K HDMI, USB 3.0, SD card reader, and 100W power delivery.",
-    imageUrl: "https://m.media-amazon.com/images/I/71RqpU4-jYL._AC_SL1500_.jpg",
-    affiliateLink: "https://amazon.com/Anker-565-USB-C-Hub"
+    name: "Palestina des de dins",
+    price: "18.90€",
+    description: "Llibre periodístic de Cristina Mas que combina geopolítica amb històries personals sobre el conflicte palestí, escrit sobre el terreny.",
+    imageUrl: "https://www.arallibres.cat/wp-content/uploads/2023/12/Palestina-des-de-dins.jpg",
+    affiliateLink: "https://www.grup62.cat/llibre/palestina-des-de-dins/365478"
   }
 ];
 

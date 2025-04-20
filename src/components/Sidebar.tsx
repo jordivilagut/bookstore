@@ -5,10 +5,9 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="profile-section">
-        <h2 className="profile-name">Amazon Deals</h2>
-        <p className="profile-tagline">Best Products & Deals</p>
+        <h2 className="profile-name">Llibres en Català 🌹🌾</h2>
+        <p className="profile-tagline">Els millors del 2025</p>
       </div>
-      
       <nav className="navigation-menu">
         <ul className="nav-list">
           <li className="nav-item">
