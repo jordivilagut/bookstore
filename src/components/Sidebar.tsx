@@ -5,7 +5,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="profile-section">
-        <h2 className="profile-name">Llibres en Català 🌹🌾</h2>
+        <h2 className="profile-name">Llibres en català 🌹🌾</h2>
         <p className="profile-tagline">Els millors del 2025</p>
       </div>
       <nav className="navigation-menu">
